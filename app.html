@@ -1,0 +1,21 @@
+const password = req.body.password;
+const CPassword = req.body.ConfirmPassword;
+
+if (password == CPassword) {
+const registerEmployee = new Register({
+firstname: req.body.firstname,
+lastname: req.body.lastname,
+email: req.body.email,
+gender: req.body.gender,
+phone: req.body.phone,
+age: req.body.age,
+password: req.body.password,
+ConfirmPassword: req.body.ConfirmPassword
+})
+
+const registered = await registerEmployee.save();
+res.status(201).render("index");
+
+} else {
+res.send("Password is not matching");
+}

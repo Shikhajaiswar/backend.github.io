@@ -1,0 +1,162 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* 
+section::before{
+    background:rgb(12, 209, 127) url('./img/brooke-bell-Houd_MDFMcU-unsplash.jpg')  ;
+    position: absolute;
+    width: 100%;
+    height: 150%;
+    content: " ";
+    z-index: -1;
+    opacity: 0.8;
+    
+} */
+body {
+    background-image: url("./img/zero-take-AXXRD4GjFtU-unsplash.jpg");
+    background-color: #5c4949;
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    height: 500px;
+    /* background-position: center; */
+}
+
+/* .head{
+    margin: 40p;
+} */
+
+.head h1 {
+    color: white;
+
+}
+
+.navbar {
+    position: fixed;
+    cursor: pointer;
+}
+
+
+.row1 {
+    border: 2px solid green;
+    height: 60px;
+    background-color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    /* opacity: 0.5; */
+}
+
+.box-1 {
+    border: 3px solid red;
+    height: 60px;
+    /* margin: 10px 0px; */
+}
+
+.box-1 h2 {
+    cursor: pointer;
+}
+
+.box-2 {
+    border: 3px solid rgb(0, 89, 255);
+    height: 60px;
+    cursor: pointer;
+}
+
+.box-3 {
+    border: 3px solid rgb(0, 183, 255);
+    height: 60px;
+}
+
+
+.box-4 {
+    border: 3px solid rgb(255, 145, 0);
+    height: 60px;
+}
+
+.box-5 {
+    border: 3px solid rgb(136, 0, 255);
+    height: 60px;
+}
+
+.box-6 {
+    border: 3px solid rgb(255, 255, 0);
+    height: 60px;
+}
+
+.box-6 img {
+    height: 25px;
+}
+
+.box-1 h1 {
+    margin: 5px 0px;
+    margin-left: 10px;
+}
+
+.box-2 h6 {
+    margin: 17px 0px;
+    cursor: pointer
+}
+
+.box-3 h6 {
+    margin: 17px 0px;
+    cursor: pointer
+}
+
+.box-4 h6 {
+    margin: 17px 0px;
+    cursor: pointer
+}
+
+.box-5 h6 {
+    margin: 17px 0px;
+    cursor: pointer
+}
+
+.box-6 img {
+    margin: 17px 0px;
+}
+
+.container-fluid {
+    border: 5px solid black;
+}
+
+
+.card-1 {
+    border: 2px, solid rgb(144, 111, 111);
+    border-radius: 5px;
+    background-color: blueviolet;
+    height: 360px;
+    margin: 95px 5px;
+}
+
+
+
+.card-2 {
+    border: 2px, solid rgb(144, 37, 37);
+    border-radius: 10px;
+    background-color: rgb(75, 171, 56);
+    height: 300px;
+    margin: 95px 0px;
+    background-image: url(./img/christian-lambert-vmIWr0NnpCQ-unsplash.png);
+}
+
+
+.card-3 {
+    border: 2px, solid rgb(16, 18, 173);
+    border-radius: 10px;
+    background-color: rgb(15, 74, 23);
+    height: 300px;
+    margin: 95px 0px;
+    background-image: url(./img/hotel.png);
+
+}
+
+.card-4 {
+    border: 2px, solid rgb(159, 17, 104);
+    border-radius: 10px;
+    background-color: blueviolet;
+    height: 300px;
+    margin: 95px 0px;
+    background-image: url(./img/blake-verdoorn-cssvEZacHvQ-unsplash.jpg);
+}
