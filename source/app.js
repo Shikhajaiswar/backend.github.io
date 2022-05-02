@@ -15,7 +15,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
 const port = process.env.PORT || 3000;
-const static_path = path.join(__dirname, "../public")
+const static_path = path.join(__dirname, "../")
 app.use(express.static(static_path))
 
 app.get("/", (req, res) => {
